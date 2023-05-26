@@ -20,13 +20,7 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"],
-      "@a/*": ["src/assets/*"],
-      "@c/*": ["src/components/*"],
-      "@p/*": ["src/pages/*"],
-      "@ser/*": ["src/services/*"],
-      "@s/*": ["src/store/*"],
-      "@u/*": ["src/utils/*"],
-      "@t/*": ["types/*"]
+      "~types/*": ["types/*"]
     }
   },
   "include": ["src", "types"],

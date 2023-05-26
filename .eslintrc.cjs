@@ -15,13 +15,7 @@ module.exports = {
       alias: {
         map: [
           ['@', './src'],
-          ['@a', './src/assets'],
-          ['@c', './src/components'],
-          ['@p', './src/pages'],
-          ['@ser', './src/services'],
-          ['@s', './src/store'],
-          ['@u', './src/utils'],
-          ['@t', './types'],
+          ['~types', './types'],
         ],
         extensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.vue'],
       },
@@ -41,6 +35,6 @@ module.exports = {
 
     'import/extensions': 'off', // 允许导入不带后缀的文件
     'import/no-extraneous-dependencies': 'off', // eslint判断依赖类型并不准确
-    'import/prefer-default-export': 'warn', // 只有一个export没必要一定变成export default
+    'import/prefer-default-export': 'off', // 只有一个export没必要一定变成export default
   },
 };
