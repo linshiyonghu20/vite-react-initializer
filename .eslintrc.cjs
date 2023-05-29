@@ -13,10 +13,7 @@ module.exports = {
   settings: {
     'import/resolver': {
       alias: {
-        map: [
-          ['@', './src'],
-          ['~types', './types'],
-        ],
+        map: [['@', './src']],
         extensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.vue'],
       },
       node: {

@@ -19,8 +19,7 @@
     /* Shortcut */
     "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"],
-      "~types/*": ["types/*"]
+      "@/*": ["src/*"]
     }
   },
   "include": ["src", "types"],
