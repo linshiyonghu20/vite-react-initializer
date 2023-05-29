@@ -16,10 +16,6 @@ module.exports = {
         map: [['@', './src']],
         extensions: ['.ts', '.tsx', '.js', '.jsx', '.json', '.vue'],
       },
-      node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx', '.json', '.vue'],
-        moduleDirectory: ['node_modules', 'types'],
-      },
     },
   },
   rules: {
