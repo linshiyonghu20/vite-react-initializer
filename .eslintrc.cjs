@@ -22,8 +22,12 @@ module.exports = {
     'react-refresh/only-export-components': 'warn',
 
     'arrow-body-style': 'warn', // 箭头函数体样式只警告
-    'no-unused-vars': 'warn', // 未使用变量只警告
-
+    'no-unused-vars': [
+      'warn',
+      {
+        argsIgnorePattern: '^_',
+      },
+    ], // 未使用的变量只警告
     '@typescript-eslint/no-unused-vars': 'off', // 和上面的规则冲突，关闭
 
     'import/extensions': 'off', // 允许导入不带后缀的文件
